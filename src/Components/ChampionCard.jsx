@@ -2,7 +2,6 @@ import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
 
 const ChampionCard = ({ championCard }) => {
-
     const navigate = useNavigate();
     const navigateTo = (id) => {
         navigate("/champion/" + id);

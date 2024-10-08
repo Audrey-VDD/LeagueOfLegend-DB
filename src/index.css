@@ -1,6 +1,8 @@
 body{
     background-color: black;
+    color: white;
 }
+
 .card{
     border: red solid 2px !important;
 }
