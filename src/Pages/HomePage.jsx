@@ -10,6 +10,7 @@ const HomePage = () => {
     const fetchChampions = async () => {
         try {
             const response = await ChampionServices.getAllChampions();
+            console.log(response.data.data);
             setChampions(response.data.data);
 
         } catch (error) {
