@@ -5,6 +5,8 @@ body{
 
 .card{
     border: red solid 2px !important;
+    background-color: black;
+    color: white;
 }
 .card:hover{
     transform: scale(1.1);
