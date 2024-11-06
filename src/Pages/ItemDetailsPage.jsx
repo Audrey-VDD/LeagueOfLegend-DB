@@ -20,7 +20,8 @@ const ItemDetailsPage = () => {
                 <h3>{currentItem.plaintext}</h3>
             </div>
             <div className="d-flex flex-wrap justify-content-center gap-3">
-                {currentItem.into.map((obj)=>{
+{/* Mettre une condition ternaire && pour que si l'into est undefined, on affiche sans le into */}
+                {currentItem.into && currentItem.into.map((obj)=>{
                     return <img key={obj} src={"https://ddragon.leagueoflegends.com/cdn/14.21.1/img/item/"+obj+".png"} alt="" />
                 })}
                 <h4>

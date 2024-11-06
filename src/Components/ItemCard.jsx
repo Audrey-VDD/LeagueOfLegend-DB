@@ -9,7 +9,7 @@ const ItemCard = ({ itemCard }) => {
 // Dans mon json (itemCard = objet avec toutes les infos), location.state.item (dans le log, on a bien un objet et dans l'objet les infos)
         navigate("/item/"+name, {state : {item : itemCard}});
     }
-    console.log(itemCard);
+    // console.log(itemCard);
     
     return <>
         <div className='col-2 d-flex justify-content-center'>
