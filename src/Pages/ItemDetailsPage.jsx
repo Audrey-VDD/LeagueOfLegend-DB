@@ -10,6 +10,7 @@ const ItemDetailsPage = () => {
     console.log(location.state.item);
 
 
+
     return <>
         <Container className="d-flex flex-column align-items-center mt-4">
             <img src={"https://ddragon.leagueoflegends.com/cdn/14.21.1/img/item/" + currentItem.image.full} alt="" />
