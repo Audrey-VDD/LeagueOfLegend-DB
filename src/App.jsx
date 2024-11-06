@@ -5,6 +5,8 @@ import NavBar from './Components/NavBar';
 import ChampionDetailsPage from './Pages/ChampionDetailsPage';
 import ItemPage from './Pages/ItemPage';
 import ItemDetailsPage from './Pages/ItemDetailsPage';
+import SummonerPage from './Pages/SummonerPage';
+import SummonerDetailsPage from './Pages/SummonerDetailsPage';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path='/champion/:id' element={<ChampionDetailsPage></ChampionDetailsPage>}/>
         <Route path='/item' element={<ItemPage></ItemPage>}/>
         <Route path='/item/:name' element={<ItemDetailsPage></ItemDetailsPage>}/>
+        <Route path='/summoner' element={<SummonerPage></SummonerPage>}/>
+        <Route path='/summoner/:id' element={<SummonerDetailsPage></SummonerDetailsPage>}/>
       </Routes>
     </BrowserRouter>
   </>
